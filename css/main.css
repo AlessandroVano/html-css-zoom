@@ -54,6 +54,8 @@ main {
     flex-wrap: wrap;
     /* imposto gli elementi al centro del contenitore, anche se andranno a capo si posizioneranno sempre al centro */
     justify-content: center;
+    /* lo usiamo quando il contenuto all'interno (in questo caso del main) eccede nelle dimensioni dello schermo che ho, esso applicherà una sorta di barra di scorrimento */
+    overflow: auto;
 }
 
 .block {
@@ -77,6 +79,8 @@ main {
     position: absolute;
     left: 0;
     bottom: 0;
+    background:  rgba(0, 0, 0, .50);
+    padding: 3px;
 }
 
 
