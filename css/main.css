@@ -3,7 +3,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+     font-family: 'Lato', sans-serif; 
 }
 /* UTILITIES */
 body {
@@ -21,7 +21,9 @@ body {
 header {
     height: 40px;
     background-color: blanchedalmond;
+    text-align: right;
 }
+
 
 /* MAIN CONTAIN */
 main {
