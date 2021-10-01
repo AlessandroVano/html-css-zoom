@@ -45,6 +45,23 @@ main {
     /* gestisco in modo dinamico i flex items, il main aumenta con l'aggiunta del contenuto al suo interno */
     flex-grow: 1;
     background-color: rgb(241, 176, 78);
+    padding: 15px 0;
+}
+/* contenitore padre */
+.container {
+    display: flex;
+    /* con wrap gli elementi andranno a capo su più righe, dall'alto verso il basso */
+    flex-wrap: wrap;
+    /* imposto gli elementi al centro del contenitore, anche se andranno a capo si posizioneranno sempre al centro */
+    justify-content: center;
+}
+
+.block {
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+    background-color: rgb(197, 85, 65);
+
 }
 
 /* FOOTER SECTION */
