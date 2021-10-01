@@ -61,6 +61,8 @@ main {
     height: 150px;
     margin: 5px;
     background-color: rgb(197, 85, 65);
+    /* posizione di riferimento per lo span */
+    position: relative;
 
 }
 /* insert img */
@@ -68,6 +70,13 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+/* span inserito nell'immagine */
+
+.block .sound {
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 
