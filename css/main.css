@@ -5,3 +5,36 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+/* UTILITIES */
+body {
+    background: black;
+    color:white;
+    /* diamo 100vh così da poter distanziare come vogliamo i tre figli diretti di body*/
+    height: 100vh;
+    /* body è il mio contenitore principale, quindi header, main, footer essendo i suoi figli diretti prenderanno questa regola */
+    display: flex;
+    /* disposizione su colonne */
+    flex-direction: column;
+}
+
+/* HEADER CONTAIN */
+header {
+    height: 40px;
+    background-color: blanchedalmond;
+}
+
+/* MAIN CONTAIN */
+main {
+    /* gestisco in modo dinamico i flex items, il main aumenta con l'aggiunta del contenuto al suo interno */
+    flex-grow: 1;
+    background-color: rgb(241, 176, 78);
+}
+
+/* FOOTER SECTION */
+footer {
+    height: 40px;
+    background-color: tomato;
+}
+
+
+
