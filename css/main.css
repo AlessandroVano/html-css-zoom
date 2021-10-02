@@ -121,6 +121,14 @@ footer {
     color: rgb(3, 199, 3);
 }
 
+/* SECTION C */
+
+.button {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgb(201, 28, 28);
+    padding: 7px;
+    border: none;
+}
 
 
 
