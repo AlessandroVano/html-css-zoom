@@ -108,12 +108,17 @@ footer {
     font-size: 20px;
     margin-bottom: 5px;
 }
+/* sezione arrow */
 .arrow-menu {
     display: flex;
     align-items: baseline;
 }
 .arrow {
     margin-left: 10px;
+}
+/* colore icone */
+.color-share {
+    color: rgb(3, 199, 3);
 }
 
 
