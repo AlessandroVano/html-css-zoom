@@ -44,7 +44,7 @@ header {
 main {
     /* gestisco in modo dinamico i flex items, il main aumenta con l'aggiunta del contenuto al suo interno */
     flex-grow: 1;
-    background-color: rgb(241, 176, 78);
+  /*   background-color: rgb(241, 176, 78); */
     padding: 15px 0;
 }
 /* contenitore padre */
@@ -86,8 +86,26 @@ main {
 
 /* FOOTER SECTION */
 footer {
-    height: 40px;
+   /*  height: 40px; */
     background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+}
+
+  .section-a {
+      display: flex;
+   text-align: center;
+   list-style: none;
+   padding: 10px;
+}
+.margin {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section-a .icon {
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
 
